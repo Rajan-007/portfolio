@@ -6,10 +6,6 @@
 
 <br/>
 
-
-## TL;DR
-
-
 ## Built With
 
 My personal portfolio <a href="https://Rajan.vercel.app/" target="_blank">Rajan.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
