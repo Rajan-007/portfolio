@@ -13,25 +13,25 @@ function AboutCard() {
             <br />
             I am currently employed as a software developer at Gryffindors.
             <br />
-            I have completed Computer Science and Engineering (BE-CSE)  at Jaya Engineering College,Chennai.
+            I have completed Computer Science and Engineering (BE)  at Jaya Engineering College,Chennai.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Exercises 
+              <ImPointRight /> Exercising 
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading Self development Books
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that need for the world!"{" "}
+            "Strive to build things that the world needs!"{" "}
           </p>
           <footer className="blockquote-footer">Rajan</footer>
         </blockquote>
