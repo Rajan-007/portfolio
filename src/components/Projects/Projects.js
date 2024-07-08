@@ -7,7 +7,9 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import secureseats from "../../Assets/Projects/secureseats.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import cropconnect from "../../Assets/Projects/cropconnect.png";
+import VictoryConnect from "../../Assets/Projects/Victoryconnect.png";
+import myguruplus from "../../Assets/Projects/myguruplus.jpg";
 
 function Projects() {
   return (
@@ -31,15 +33,35 @@ function Projects() {
               demoLink="https://secureseats.vercel.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={VictoryConnect}
+              isBlog={false}
+              title="Victory connect"
+              description=" VictoryConnect is a dynamic platform designed to connect business professionals, fostering collaboration and networking opportunities. "
+              ghLink="https://github.com/Rajan-007/Community_Management"
+              demoLink="https://github.com/Rajan-007/Community_Management"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={cropconnect}
               isBlog={false}
-              title="Crop connect"
+              title="Crop Connect"
               description="Building an DAO to help the farmerswith the supplychain management, getting identityand apply for the loans."
-              ghLink="https://github.com/Rajan-007/Crop-connect"
-              demoLink="https://github.com/Rajan-007/Crop-connect"
+              ghLink="https://github.com/Rajan-007/Crop-Connect"
+              demoLink="https://green-dao-icp.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myguruplus}
+              isBlog={false}
+              title="myguruplus"
+              description="Building an platform to help the TNPSC students to practice the questions in the quiz and score were shown"
+              ghLink="https://github.com/Rajan-007/Myguruplus"
+              demoLink="https://www.myguruplus.com/"
             />
           </Col>
 
